@@ -57,8 +57,8 @@ Student-Performance-Analysis/
 ├── HarshRaj_StudentPerformanceAnalysis.py
 ├── HarshRaj_StudentPerformanceAnalysis_Report.docx
 │
-├── data/
-│   └── StudentPerformanceFactors.csv
+├── StudentPerformanceFactors.csv
+│ 
 │
 └── outputs/
     ├── visualization_01_attendance_exam_score.png
@@ -181,7 +181,7 @@ The regression was fitted and evaluated on the same observations, so its R-squar
 pip install -r requirements.txt
 ```
 
-3. Place `StudentPerformanceFactors.csv` in the `data/` folder, or update the file path in the Python script if necessary.
+3. Place StudentPerformanceFactors.csv in the same folder as the Python script.
 4. Open `HarshRaj_StudentPerformanceAnalysis.py` in Spyder or another Python IDE.
 5. Run the script.
 6. The six final visualizations will be saved in the `outputs/` folder.
